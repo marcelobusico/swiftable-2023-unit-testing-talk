@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C0CA55B2B0000B300CC3762 /* Swiftable2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA55A2B0000B300CC3762 /* Swiftable2023App.swift */; };
+		9C0CA55D2B0000B300CC3762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA55C2B0000B300CC3762 /* ContentView.swift */; };
+		9C0CA55F2B0000B500CC3762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0CA55E2B0000B500CC3762 /* Assets.xcassets */; };
+		9C0CA5622B0000B500CC3762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0CA5612B0000B500CC3762 /* Preview Assets.xcassets */; };
+		9C0CA58C2B0023B900CC3762 /* LegacyPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA58B2B0023B900CC3762 /* LegacyPasswordValidator.swift */; };
+		9C0CA58F2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA58E2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift */; };
+		9C5BA73E2B003B45008604C1 /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BA73D2B003B45008604C1 /* PasswordValidator.swift */; };
+		9C5BA7402B003B79008604C1 /* PasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BA73F2B003B79008604C1 /* PasswordValidatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C0CA5682B0000B500CC3762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C0CA54F2B0000B300CC3762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C0CA5562B0000B300CC3762;
+			remoteInfo = Swiftable2023;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C0CA5572B0000B300CC3762 /* Swiftable2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftable2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0CA55A2B0000B300CC3762 /* Swiftable2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftable2023App.swift; sourceTree = "<group>"; };
+		9C0CA55C2B0000B300CC3762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C0CA55E2B0000B500CC3762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C0CA5612B0000B500CC3762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C0CA5672B0000B500CC3762 /* Swiftable2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swiftable2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0CA58B2B0023B900CC3762 /* LegacyPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyPasswordValidator.swift; sourceTree = "<group>"; };
+		9C0CA58E2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyPasswordValidatorTests.swift; sourceTree = "<group>"; };
+		9C5BA73D2B003B45008604C1 /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		9C5BA73F2B003B79008604C1 /* PasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidatorTests.swift; sourceTree = "<group>"; };
+		9CC2EBF52B003DCA00562CD7 /* Swiftable2023.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Swiftable2023.xctestplan; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C0CA5542B0000B300CC3762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0CA5642B0000B500CC3762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C0CA54E2B0000B300CC3762 = {
+			isa = PBXGroup;
+			children = (
+				9CC2EBF52B003DCA00562CD7 /* Swiftable2023.xctestplan */,
+				9C0CA5592B0000B300CC3762 /* Swiftable2023 */,
+				9C0CA56A2B0000B500CC3762 /* Swiftable2023Tests */,
+				9C0CA5582B0000B300CC3762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C0CA5582B0000B300CC3762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C0CA5572B0000B300CC3762 /* Swiftable2023.app */,
+				9C0CA5672B0000B500CC3762 /* Swiftable2023Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C0CA5592B0000B300CC3762 /* Swiftable2023 */ = {
+			isa = PBXGroup;
+			children = (
+				9C0CA58A2B0023AA00CC3762 /* Validators */,
+				9C0CA55A2B0000B300CC3762 /* Swiftable2023App.swift */,
+				9C0CA55C2B0000B300CC3762 /* ContentView.swift */,
+				9C0CA55E2B0000B500CC3762 /* Assets.xcassets */,
+				9C0CA5602B0000B500CC3762 /* Preview Content */,
+			);
+			path = Swiftable2023;
+			sourceTree = "<group>";
+		};
+		9C0CA5602B0000B500CC3762 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C0CA5612B0000B500CC3762 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C0CA56A2B0000B500CC3762 /* Swiftable2023Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9C0CA58D2B0024AE00CC3762 /* Validators */,
+			);
+			path = Swiftable2023Tests;
+			sourceTree = "<group>";
+		};
+		9C0CA58A2B0023AA00CC3762 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				9C0CA58B2B0023B900CC3762 /* LegacyPasswordValidator.swift */,
+				9C5BA73D2B003B45008604C1 /* PasswordValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		9C0CA58D2B0024AE00CC3762 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				9C0CA58E2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift */,
+				9C5BA73F2B003B79008604C1 /* PasswordValidatorTests.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C0CA5562B0000B300CC3762 /* Swiftable2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C0CA57B2B0000B500CC3762 /* Build configuration list for PBXNativeTarget "Swiftable2023" */;
+			buildPhases = (
+				9C0CA5532B0000B300CC3762 /* Sources */,
+				9C0CA5542B0000B300CC3762 /* Frameworks */,
+				9C0CA5552B0000B300CC3762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swiftable2023;
+			productName = Swiftable2023;
+			productReference = 9C0CA5572B0000B300CC3762 /* Swiftable2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C0CA5662B0000B500CC3762 /* Swiftable2023Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C0CA57E2B0000B500CC3762 /* Build configuration list for PBXNativeTarget "Swiftable2023Tests" */;
+			buildPhases = (
+				9C0CA5632B0000B500CC3762 /* Sources */,
+				9C0CA5642B0000B500CC3762 /* Frameworks */,
+				9C0CA5652B0000B500CC3762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C0CA5692B0000B500CC3762 /* PBXTargetDependency */,
+			);
+			name = Swiftable2023Tests;
+			productName = Swiftable2023Tests;
+			productReference = 9C0CA5672B0000B500CC3762 /* Swiftable2023Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C0CA54F2B0000B300CC3762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9C0CA5562B0000B300CC3762 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					9C0CA5662B0000B500CC3762 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9C0CA5562B0000B300CC3762;
+					};
+				};
+			};
+			buildConfigurationList = 9C0CA5522B0000B300CC3762 /* Build configuration list for PBXProject "Swiftable2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C0CA54E2B0000B300CC3762;
+			productRefGroup = 9C0CA5582B0000B300CC3762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C0CA5562B0000B300CC3762 /* Swiftable2023 */,
+				9C0CA5662B0000B500CC3762 /* Swiftable2023Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C0CA5552B0000B300CC3762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0CA5622B0000B500CC3762 /* Preview Assets.xcassets in Resources */,
+				9C0CA55F2B0000B500CC3762 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0CA5652B0000B500CC3762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C0CA5532B0000B300CC3762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5BA73E2B003B45008604C1 /* PasswordValidator.swift in Sources */,
+				9C0CA55D2B0000B300CC3762 /* ContentView.swift in Sources */,
+				9C0CA55B2B0000B300CC3762 /* Swiftable2023App.swift in Sources */,
+				9C0CA58C2B0023B900CC3762 /* LegacyPasswordValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0CA5632B0000B500CC3762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0CA58F2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift in Sources */,
+				9C5BA7402B003B79008604C1 /* PasswordValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C0CA5692B0000B500CC3762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C0CA5562B0000B300CC3762 /* Swiftable2023 */;
+			targetProxy = 9C0CA5682B0000B500CC3762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C0CA5792B0000B500CC3762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C0CA57A2B0000B500CC3762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C0CA57C2B0000B500CC3762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftable2023/Preview Content\"";
+				DEVELOPMENT_TEAM = 657BERDP29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busico.Swiftable2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C0CA57D2B0000B500CC3762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftable2023/Preview Content\"";
+				DEVELOPMENT_TEAM = 657BERDP29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busico.Swiftable2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C0CA57F2B0000B500CC3762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 657BERDP29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busico.Swiftable2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftable2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftable2023";
+			};
+			name = Debug;
+		};
+		9C0CA5802B0000B500CC3762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 657BERDP29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.busico.Swiftable2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftable2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftable2023";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C0CA5522B0000B300CC3762 /* Build configuration list for PBXProject "Swiftable2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0CA5792B0000B500CC3762 /* Debug */,
+				9C0CA57A2B0000B500CC3762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C0CA57B2B0000B500CC3762 /* Build configuration list for PBXNativeTarget "Swiftable2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0CA57C2B0000B500CC3762 /* Debug */,
+				9C0CA57D2B0000B500CC3762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C0CA57E2B0000B500CC3762 /* Build configuration list for PBXNativeTarget "Swiftable2023Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0CA57F2B0000B500CC3762 /* Debug */,
+				9C0CA5802B0000B500CC3762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C0CA54F2B0000B300CC3762 /* Project object */;
+}

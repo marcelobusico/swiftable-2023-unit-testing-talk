@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "55EF05BC-CC77-4980-A40F-5EC3ACDE8D29",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Swiftable2023.xcodeproj",
+      "identifier" : "9C0CA5562B0000B300CC3762",
+      "name" : "Swiftable2023"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Swiftable2023.xcodeproj",
+        "identifier" : "9C0CA5662B0000B500CC3762",
+        "name" : "Swiftable2023Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
