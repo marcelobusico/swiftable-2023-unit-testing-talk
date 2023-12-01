@@ -3,11 +3,21 @@ import SwiftUI
 @main
 struct Swiftable2023App: App {
 
-    let passwordValidator = PasswordValidator()
+    private let passwordValidator: PasswordValidator
+
+    init() {
+        passwordValidator = RemotePasswordValidator(
+            simulatedValidator: ComplexPasswordValidator()
+        )
+    }
 
     var body: some Scene {
         WindowGroup {
-            ContentView(passwordValidator: passwordValidator)
+            ResetPasswordView(
+                viewModel: ResetPasswordViewModel(
+                    passwordValidator: passwordValidator
+                )
+            )
         }
     }
 }

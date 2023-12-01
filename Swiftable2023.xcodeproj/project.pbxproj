@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9C0CA55B2B0000B300CC3762 /* Swiftable2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA55A2B0000B300CC3762 /* Swiftable2023App.swift */; };
-		9C0CA55D2B0000B300CC3762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA55C2B0000B300CC3762 /* ContentView.swift */; };
 		9C0CA55F2B0000B500CC3762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0CA55E2B0000B500CC3762 /* Assets.xcassets */; };
 		9C0CA5622B0000B500CC3762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0CA5612B0000B500CC3762 /* Preview Assets.xcassets */; };
-		9C0CA58C2B0023B900CC3762 /* LegacyPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA58B2B0023B900CC3762 /* LegacyPasswordValidator.swift */; };
-		9C0CA58F2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CA58E2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift */; };
+		9C108A592B1A1F35004E15EB /* SimplePasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C108A582B1A1F35004E15EB /* SimplePasswordValidatorTests.swift */; };
+		9C108A5C2B1A2978004E15EB /* ResetPasswordViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C108A5B2B1A2978004E15EB /* ResetPasswordViewModelTests.swift */; };
+		9C108A5E2B1A2AE0004E15EB /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 9C108A5D2B1A2AE0004E15EB /* RxBlocking */; };
+		9C108A602B1A2AE2004E15EB /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 9C108A5F2B1A2AE2004E15EB /* RxTest */; };
+		9C108A622B1A2CFC004E15EB /* RemotePasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C108A612B1A2CFC004E15EB /* RemotePasswordValidatorTests.swift */; };
+		9C108A652B1A2D51004E15EB /* StubPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C108A642B1A2D51004E15EB /* StubPasswordValidator.swift */; };
 		9C5BA73E2B003B45008604C1 /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BA73D2B003B45008604C1 /* PasswordValidator.swift */; };
-		9C5BA7402B003B79008604C1 /* PasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BA73F2B003B79008604C1 /* PasswordValidatorTests.swift */; };
+		9C5BA7402B003B79008604C1 /* ComplextPasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BA73F2B003B79008604C1 /* ComplextPasswordValidatorTests.swift */; };
+		9CF633192B1A09FC00008315 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF633182B1A09FC00008315 /* ResetPasswordViewModel.swift */; };
+		9CF6331B2B1A0A1200008315 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6331A2B1A0A1200008315 /* ResetPasswordView.swift */; };
+		9CF6331E2B1A0B6400008315 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 9CF6331D2B1A0B6400008315 /* RxRelay */; };
+		9CF633202B1A0B6400008315 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9CF6331F2B1A0B6400008315 /* RxSwift */; };
+		9CF633232B1A0D0700008315 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9CF633222B1A0D0700008315 /* RxCocoa */; };
+		9CF633262B1A0FA000008315 /* ComplexPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF633252B1A0FA000008315 /* ComplexPasswordValidator.swift */; };
+		9CF633282B1A106F00008315 /* SimplePasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF633272B1A106F00008315 /* SimplePasswordValidator.swift */; };
+		9CF6332A2B1A107C00008315 /* RemotePasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF633292B1A107C00008315 /* RemotePasswordValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,15 +41,21 @@
 /* Begin PBXFileReference section */
 		9C0CA5572B0000B300CC3762 /* Swiftable2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftable2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0CA55A2B0000B300CC3762 /* Swiftable2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftable2023App.swift; sourceTree = "<group>"; };
-		9C0CA55C2B0000B300CC3762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C0CA55E2B0000B500CC3762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0CA5612B0000B500CC3762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C0CA5672B0000B500CC3762 /* Swiftable2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swiftable2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C0CA58B2B0023B900CC3762 /* LegacyPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyPasswordValidator.swift; sourceTree = "<group>"; };
-		9C0CA58E2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyPasswordValidatorTests.swift; sourceTree = "<group>"; };
+		9C108A582B1A1F35004E15EB /* SimplePasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePasswordValidatorTests.swift; sourceTree = "<group>"; };
+		9C108A5B2B1A2978004E15EB /* ResetPasswordViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModelTests.swift; sourceTree = "<group>"; };
+		9C108A612B1A2CFC004E15EB /* RemotePasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePasswordValidatorTests.swift; sourceTree = "<group>"; };
+		9C108A642B1A2D51004E15EB /* StubPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubPasswordValidator.swift; sourceTree = "<group>"; };
 		9C5BA73D2B003B45008604C1 /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
-		9C5BA73F2B003B79008604C1 /* PasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidatorTests.swift; sourceTree = "<group>"; };
+		9C5BA73F2B003B79008604C1 /* ComplextPasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplextPasswordValidatorTests.swift; sourceTree = "<group>"; };
 		9CC2EBF52B003DCA00562CD7 /* Swiftable2023.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Swiftable2023.xctestplan; sourceTree = "<group>"; };
+		9CF633182B1A09FC00008315 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		9CF6331A2B1A0A1200008315 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		9CF633252B1A0FA000008315 /* ComplexPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexPasswordValidator.swift; sourceTree = "<group>"; };
+		9CF633272B1A106F00008315 /* SimplePasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePasswordValidator.swift; sourceTree = "<group>"; };
+		9CF633292B1A107C00008315 /* RemotePasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePasswordValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF633232B1A0D0700008315 /* RxCocoa in Frameworks */,
+				9CF633202B1A0B6400008315 /* RxSwift in Frameworks */,
+				9CF6331E2B1A0B6400008315 /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C108A602B1A2AE2004E15EB /* RxTest in Frameworks */,
+				9C108A5E2B1A2AE0004E15EB /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +88,7 @@
 				9C0CA5592B0000B300CC3762 /* Swiftable2023 */,
 				9C0CA56A2B0000B500CC3762 /* Swiftable2023Tests */,
 				9C0CA5582B0000B300CC3762 /* Products */,
+				9CF633212B1A0D0700008315 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +104,9 @@
 		9C0CA5592B0000B300CC3762 /* Swiftable2023 */ = {
 			isa = PBXGroup;
 			children = (
+				9CF633162B1A09B800008315 /* Features */,
 				9C0CA58A2B0023AA00CC3762 /* Validators */,
 				9C0CA55A2B0000B300CC3762 /* Swiftable2023App.swift */,
-				9C0CA55C2B0000B300CC3762 /* ContentView.swift */,
 				9C0CA55E2B0000B500CC3762 /* Assets.xcassets */,
 				9C0CA5602B0000B500CC3762 /* Preview Content */,
 			);
@@ -101,6 +124,8 @@
 		9C0CA56A2B0000B500CC3762 /* Swiftable2023Tests */ = {
 			isa = PBXGroup;
 			children = (
+				9C108A632B1A2D40004E15EB /* TestDoubles */,
+				9C108A5A2B1A296A004E15EB /* Features */,
 				9C0CA58D2B0024AE00CC3762 /* Validators */,
 			);
 			path = Swiftable2023Tests;
@@ -109,7 +134,7 @@
 		9C0CA58A2B0023AA00CC3762 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				9C0CA58B2B0023B900CC3762 /* LegacyPasswordValidator.swift */,
+				9CF633242B1A0F7D00008315 /* Implementations */,
 				9C5BA73D2B003B45008604C1 /* PasswordValidator.swift */,
 			);
 			path = Validators;
@@ -118,10 +143,61 @@
 		9C0CA58D2B0024AE00CC3762 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				9C0CA58E2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift */,
-				9C5BA73F2B003B79008604C1 /* PasswordValidatorTests.swift */,
+				9C5BA73F2B003B79008604C1 /* ComplextPasswordValidatorTests.swift */,
+				9C108A582B1A1F35004E15EB /* SimplePasswordValidatorTests.swift */,
+				9C108A612B1A2CFC004E15EB /* RemotePasswordValidatorTests.swift */,
 			);
 			path = Validators;
+			sourceTree = "<group>";
+		};
+		9C108A5A2B1A296A004E15EB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9C108A5B2B1A2978004E15EB /* ResetPasswordViewModelTests.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9C108A632B1A2D40004E15EB /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				9C108A642B1A2D51004E15EB /* StubPasswordValidator.swift */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		9CF633162B1A09B800008315 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9CF633172B1A09CE00008315 /* ResetPassword */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9CF633172B1A09CE00008315 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				9CF633182B1A09FC00008315 /* ResetPasswordViewModel.swift */,
+				9CF6331A2B1A0A1200008315 /* ResetPasswordView.swift */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		9CF633212B1A0D0700008315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CF633242B1A0F7D00008315 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				9CF633252B1A0FA000008315 /* ComplexPasswordValidator.swift */,
+				9CF633272B1A106F00008315 /* SimplePasswordValidator.swift */,
+				9CF633292B1A107C00008315 /* RemotePasswordValidator.swift */,
+			);
+			path = Implementations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +216,11 @@
 			dependencies = (
 			);
 			name = Swiftable2023;
+			packageProductDependencies = (
+				9CF6331D2B1A0B6400008315 /* RxRelay */,
+				9CF6331F2B1A0B6400008315 /* RxSwift */,
+				9CF633222B1A0D0700008315 /* RxCocoa */,
+			);
 			productName = Swiftable2023;
 			productReference = 9C0CA5572B0000B300CC3762 /* Swiftable2023.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +239,10 @@
 				9C0CA5692B0000B500CC3762 /* PBXTargetDependency */,
 			);
 			name = Swiftable2023Tests;
+			packageProductDependencies = (
+				9C108A5D2B1A2AE0004E15EB /* RxBlocking */,
+				9C108A5F2B1A2AE2004E15EB /* RxTest */,
+			);
 			productName = Swiftable2023Tests;
 			productReference = 9C0CA5672B0000B500CC3762 /* Swiftable2023Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -190,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 9C0CA54E2B0000B300CC3762;
+			packageReferences = (
+				9CF6331C2B1A0B6400008315 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 9C0CA5582B0000B300CC3762 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,10 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF633192B1A09FC00008315 /* ResetPasswordViewModel.swift in Sources */,
 				9C5BA73E2B003B45008604C1 /* PasswordValidator.swift in Sources */,
-				9C0CA55D2B0000B300CC3762 /* ContentView.swift in Sources */,
+				9CF633262B1A0FA000008315 /* ComplexPasswordValidator.swift in Sources */,
+				9CF6331B2B1A0A1200008315 /* ResetPasswordView.swift in Sources */,
+				9CF6332A2B1A107C00008315 /* RemotePasswordValidator.swift in Sources */,
 				9C0CA55B2B0000B300CC3762 /* Swiftable2023App.swift in Sources */,
-				9C0CA58C2B0023B900CC3762 /* LegacyPasswordValidator.swift in Sources */,
+				9CF633282B1A106F00008315 /* SimplePasswordValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,8 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C0CA58F2B0024C100CC3762 /* LegacyPasswordValidatorTests.swift in Sources */,
-				9C5BA7402B003B79008604C1 /* PasswordValidatorTests.swift in Sources */,
+				9C5BA7402B003B79008604C1 /* ComplextPasswordValidatorTests.swift in Sources */,
+				9C108A622B1A2CFC004E15EB /* RemotePasswordValidatorTests.swift in Sources */,
+				9C108A592B1A1F35004E15EB /* SimplePasswordValidatorTests.swift in Sources */,
+				9C108A652B1A2D51004E15EB /* StubPasswordValidator.swift in Sources */,
+				9C108A5C2B1A2978004E15EB /* ResetPasswordViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +593,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9CF6331C2B1A0B6400008315 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C108A5D2B1A2AE0004E15EB /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CF6331C2B1A0B6400008315 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		9C108A5F2B1A2AE2004E15EB /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CF6331C2B1A0B6400008315 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		9CF6331D2B1A0B6400008315 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CF6331C2B1A0B6400008315 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		9CF6331F2B1A0B6400008315 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CF6331C2B1A0B6400008315 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		9CF633222B1A0D0700008315 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9CF6331C2B1A0B6400008315 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C0CA54F2B0000B300CC3762 /* Project object */;
 }

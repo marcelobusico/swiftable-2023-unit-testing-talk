@@ -2,17 +2,18 @@ import Foundation
 import XCTest
 @testable import Swiftable2023
 
-class PasswordValidatorTests: XCTestCase {
+class ComplexPasswordValidatorTests: XCTestCase {
 
     // MARK: Private Properties
 
-    private var passwordValidator: PasswordValidator!
+    private let testTimeout: TimeInterval = 5
+    private var passwordValidator: ComplexPasswordValidator!
 
     // MARK: Set Up
 
     override func setUp() {
         super.setUp()
-        passwordValidator = PasswordValidator()
+        passwordValidator = ComplexPasswordValidator()
     }
 
     // MARK: Validate Password Tests
@@ -94,7 +95,7 @@ class PasswordValidatorTests: XCTestCase {
 
     // MARK: Validate Password Async Tests
 
-    func test_validatePasswordAsync_withAllRequiredCharactersAndLength_shouldReturnValidPassword() {
+    func test_validatePasswordAsync_withAllRequiredCharactersAndLength_shouldCallOnSuccess() {
         // Setup
         let password = "Marce.2023"
         let expectation = expectation(description: "password validation completed")
@@ -113,6 +114,28 @@ class PasswordValidatorTests: XCTestCase {
         )
 
         // Wait
-        wait(for: [expectation], timeout: 5)
+        wait(for: [expectation], timeout: testTimeout)
+    }
+
+    func test_validatePasswordAsync_withLessThan8Characters_shouldCallOnError() {
+        // Setup
+        let password = "Mnb.23"
+        let expectation = expectation(description: "password validation completed")
+
+        // Test
+        passwordValidator.validatePasswordAsync(
+            password,
+            onSuccess: { _ in
+                defer { expectation.fulfill() }
+                XCTFail("The password should be valid")
+            },
+            onError: { message in
+                defer { expectation.fulfill() }
+                XCTAssertEqual(message, "You need at least 8 characters")
+            }
+        )
+
+        // Wait
+        wait(for: [expectation], timeout: testTimeout)
     }
 }
