@@ -91,4 +91,28 @@ class PasswordValidatorTests: XCTestCase {
         // Verify
         XCTAssertEqual(result, .validPassword, "Password matching all requirements should be valid.")
     }
+
+    // MARK: Validate Password Async Tests
+
+    func test_validatePasswordAsync_withAllRequiredCharactersAndLength_shouldReturnValidPassword() {
+        // Setup
+        let password = "Marce.2023"
+        let expectation = expectation(description: "password validation completed")
+
+        // Test
+        passwordValidator.validatePasswordAsync(
+            password,
+            onSuccess: { message in
+                defer { expectation.fulfill() }
+                XCTAssertEqual(message, "Your new password looks great!")
+            },
+            onError: { _ in
+                defer { expectation.fulfill() }
+                XCTFail("The password should be valid")
+            }
+        )
+
+        // Wait
+        wait(for: [expectation], timeout: 5)
+    }
 }

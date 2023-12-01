@@ -22,17 +22,17 @@ struct ContentView: View {
 
         }
         .onChange(of: password, { _, newValue in
-            let result = passwordValidator.validatePassword(newValue)
-
-            switch result {
-            case .validPassword:
-                validationMessage = "Your new password looks great!"
-                validationMessageColor = .green
-            case let .invalidPassword(reasons):
-                validationMessage = ""
-                reasons.forEach { validationMessage += $0.rawValue + "\n" }
-                validationMessageColor = .red
-            }
+            passwordValidator.validatePasswordAsync(
+                newValue,
+                onSuccess: { message in
+                    validationMessage = message
+                    validationMessageColor = .green
+                },
+                onError: { message in
+                    validationMessage = message
+                    validationMessageColor = .red
+                }
+            )
         })
         .padding()
     }
